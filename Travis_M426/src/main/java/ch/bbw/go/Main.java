@@ -11,5 +11,6 @@ public class Main {
         System.out.println("Summe " + valueA + " + " + valueB + " = " + calculator.summe(valueA, valueB));
         System.out.println("Differenz " + valueA + " - " + valueB + " = " + calculator.differenz(valueA, valueB));
         System.out.println("Quotient " + valueB + " / " + valueA + " = " + calculator.quotient(valueB, valueA));
+        System.out.println("Modulo " + valueA + "%" + valueB + "=" + calculator.modulo(valueA, valueB));
     }
 }
